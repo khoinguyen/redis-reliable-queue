@@ -1,0 +1,31 @@
+{
+  "name": "redis-reliable-queue",
+  "version": "1.0.0",
+  "description": "Full-featured reliable queue with NodeJS + Redis, optimized with Redis Lua script engine",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "producer": "node samples/producer.js --harmony",
+    "consumer": "node samples/consumer.js --harmony"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khoinguyen/redis-reliable-queue.git"
+  },
+  "keywords": [
+    "redis",
+    "reliable",
+    "queue",
+    "nodejs"
+  ],
+  "author": "Khoi Nguyen <khoi.nqq@gmail.com>",
+  "license": "GNU General Public License v3.0",
+  "bugs": {
+    "url": "https://github.com/khoinguyen/redis-reliable-queue/issues"
+  },
+  "homepage": "https://github.com/khoinguyen/redis-reliable-queue#readme",
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "redis": "^2.7.1"
+  }
+}
